@@ -1,13 +1,7 @@
 #include <unistd.h>
 void	ft_putchar(char c);
-void	ft_print_comb(void);
 
-int	main(void)
-{
-	ft_print_comb();
-}
-
-void	ft_print_comb(void)
+void	ft_print_comb2(void)
 {
 	int	n1;
 	int	n2;

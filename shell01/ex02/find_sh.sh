@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -o -type f | wc -l
+find . -type f -name "*\.sh" | xargs basename -s .sh
